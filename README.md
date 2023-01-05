@@ -7,7 +7,7 @@ Currently includes:
 * Item pickups
 * Survovor spawn pods
 
-** Planned future additions:
+**Planned future additions:**
   * Rest of interactables: Cauldrons, timed chest on Rallypoint
   * Logbook pickups
   * Aqueduct pressure plates
