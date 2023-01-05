@@ -1,0 +1,13 @@
+﻿{
+	"name": "HungeringVoid",
+	"authorName": "Gorakh",
+	"displayName": "Hungering Void",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/Goorakh/",
+	"description": "A server-side mod that makes void implosions steal more kinds of objects from the environment. Highly configurable.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.2100",
+		"RiskofThunder-HookGenPatcher-1.2.1",
+		"RiskofThunder-R2API_Core-5.0.4"
+	]
+}
