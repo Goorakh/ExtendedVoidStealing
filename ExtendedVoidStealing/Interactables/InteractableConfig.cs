@@ -26,6 +26,21 @@ namespace ExtendedVoidStealing.Interactables
             }
         }
 
+        static ConfigEntry<bool> _canRemoveFans;
+        public static bool CanRemoveFans
+        {
+            get
+            {
+                if (_canRemoveFans == null)
+                {
+                    Log.Warning($"{nameof(_canRemoveFans)} is null");
+                    return false;
+                }
+
+                return _canRemoveFans.Value;
+            }
+        }
+
         internal static void Init(ConfigFile file)
         {
             _canRemoveInteractableTypeConfig = new ConfigEntry<bool>[(int)InteractableType.Count];
@@ -40,6 +55,7 @@ namespace ExtendedVoidStealing.Interactables
             _canRemoveInteractableTypeConfig[(int)InteractableType.Lockbox] = file.Bind(new ConfigDefinition("Interactables", "Can Remove Lockboxes"), true, new ConfigDescription("If void implosions should be able to remove lockboxes"));
 
             _canRemoveNewtStatues = file.Bind(new ConfigDefinition("Interactables", "Can Remove Newt Altars"), true, new ConfigDescription("If void implosions should be able to remove Newt altars"));
+            _canRemoveFans = file.Bind(new ConfigDefinition("Interactables", "Can Remove Fans"), true, new ConfigDescription("If void implosions should be able to remove fans on Rallypoint Delta"));
 
             if (Chainloader.PluginInfos.ContainsKey(PluginGUIDs.RISK_OF_OPTIONS))
             {
@@ -55,6 +71,7 @@ namespace ExtendedVoidStealing.Interactables
             }
 
             RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.CheckBoxOption(_canRemoveNewtStatues));
+            RiskOfOptions.ModSettingsManager.AddOption(new RiskOfOptions.Options.CheckBoxOption(_canRemoveFans));
         }
 
         public static bool CanRemoveInteractableFromVoidImplosion(InteractableType interactable)

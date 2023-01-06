@@ -6,8 +6,6 @@ Currently includes:
 * Almost all kinds of interactables (excluding teleporters for obvious reasons)
 * Pickups (items, equipment, etc)
 * Survovor spawn pods
-
-**Planned future additions:**
-  * Rest of interactables: Cauldrons, timed chest on Rallypoint
-  * Logbook pickups
-  * Aqueduct pressure plates
+* Abaondoned Aqueduct pressure plates
+* The Timed Chest on Rallypoint
+* The fans on Rallypoint

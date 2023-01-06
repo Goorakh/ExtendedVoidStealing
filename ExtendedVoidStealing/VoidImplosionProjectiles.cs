@@ -62,6 +62,14 @@ namespace ExtendedVoidStealing
             {
                 return portalStatueBehavior.portalType == PortalStatueBehavior.PortalType.Shop && InteractableConfig.CanRemoveNewtStatues;
             }
+            else if (netObj.GetComponent<TimedChestController>())
+            {
+                return InteractableConfig.CanRemoveInteractableFromVoidImplosion(InteractableType.Chest);
+            }
+            else if (netObj.GetComponent<RallyPointFan>())
+            {
+                return InteractableConfig.CanRemoveFans;
+            }
             else if (netObj.GetComponent<SurvivorPodController>())
             {
                 return MiscConfig.CanRemoveSurvivorPods;

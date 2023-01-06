@@ -22,9 +22,7 @@ namespace ExtendedVoidStealing
     // HOLDER: Store/LunarShop/LunarTable/LunarShopTerminal
     // HOLDER: Store/LunarShop/LunarRecycler
     // Lunar Seers
-    // Timed Chest
     // All preplaced chests on goldshores
-    // Plates on aqueduct
     // PortalDialer stuff on SM
 
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]

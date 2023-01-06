@@ -10,6 +10,9 @@ namespace ExtendedVoidStealing.SceneObjectMarkers
         static SceneIndex _abandonedAqueductSceneIndex;
         public static SceneIndex AbandonedAqueductSceneIndex => _abandonedAqueductSceneIndex;
 
+        static SceneIndex _rallyPointSceneIndex;
+        public static SceneIndex RallyPointSceneIndex => _rallyPointSceneIndex;
+
         [SystemInitializer(typeof(SceneCatalog))]
         static void Init()
         {
@@ -22,6 +25,7 @@ namespace ExtendedVoidStealing.SceneObjectMarkers
             }
 
             setSceneIndexField("goolake", out _abandonedAqueductSceneIndex);
+            setSceneIndexField("frozenwall", out _rallyPointSceneIndex);
         }
     }
 }
