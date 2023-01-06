@@ -1,4 +1,5 @@
 ﻿using ExtendedVoidStealing.Interactables;
+using ExtendedVoidStealing.Misc;
 using RiskOfOptions.Components.Panel;
 using RoR2;
 using RoR2.Projectile;

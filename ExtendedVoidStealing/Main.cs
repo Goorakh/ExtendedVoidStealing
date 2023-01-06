@@ -1,6 +1,7 @@
 using BepInEx;
 using BepInEx.Bootstrap;
 using ExtendedVoidStealing.Interactables;
+using ExtendedVoidStealing.Misc;
 using R2API;
 using R2API.Utils;
 using RoR2;

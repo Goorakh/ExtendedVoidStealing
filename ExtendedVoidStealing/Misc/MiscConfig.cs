@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExtendedVoidStealing
+namespace ExtendedVoidStealing.Misc
 {
     public static class MiscConfig
     {
