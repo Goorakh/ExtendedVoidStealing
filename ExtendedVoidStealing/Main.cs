@@ -34,7 +34,7 @@ namespace ExtendedVoidStealing
     {
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "Gorakh";
-        public const string PluginName = "HungeringVoid";
+        public const string PluginName = "ExtendedVoidStealing";
         public const string PluginVersion = "1.0.0";
 
         void Awake()
@@ -59,7 +59,7 @@ namespace ExtendedVoidStealing
 
         static void riskOfOptionsCompatInit()
         {
-            RiskOfOptions.ModSettingsManager.SetModDescription("The void hungers for more...", PluginGUID, "Hungering Void");
+            RiskOfOptions.ModSettingsManager.SetModDescription(string.Empty, PluginGUID, "Extended Void Stealing");
         }
 
 #if DEBUG

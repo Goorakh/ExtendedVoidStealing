@@ -14,7 +14,7 @@ namespace ExtendedVoidStealing
 
         static string getLogPrefix(string callerPath, int callerLineNumber)
         {
-            const string MOD_NAME = "HungeringVoid";
+            const string MOD_NAME = "ExtendedVoidStealing";
 
             int modNameLastPathIndex = callerPath.LastIndexOf(MOD_NAME);
             if (modNameLastPathIndex >= 0)
