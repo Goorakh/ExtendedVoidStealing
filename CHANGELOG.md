@@ -2,7 +2,7 @@
 
 **1.1.1 Changes:**
 
-* Fixed dumb spelling mistake in README
+* Fixed dumb spelling mistakes in README, in my defense most of it was written at 2 in the morning
 
 **1.1.0 Changes:**
 
