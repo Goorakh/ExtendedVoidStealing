@@ -1,5 +1,9 @@
 ## Changelog
 
+**1.1.1 Changes:**
+
+* Fixed dumb spelling mistake in README
+
 **1.1.0 Changes:**
 
 * Pressure plates on Abandoned Aqueduct can now be stolen
