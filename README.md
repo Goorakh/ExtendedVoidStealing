@@ -4,7 +4,7 @@ A server-side mod that makes void implosions steal more kinds of objects from th
 
 Currently includes:
 * Almost all kinds of interactables (excluding teleporters for obvious reasons)
-* Item pickups
+* Pickups (items, equipment, etc)
 * Survovor spawn pods
 
 **Planned future additions:**
