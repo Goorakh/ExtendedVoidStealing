@@ -34,7 +34,7 @@ namespace ExtendedVoidStealing
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "Gorakh";
         public const string PluginName = "ExtendedVoidStealing";
-        public const string PluginVersion = "1.1.0";
+        public const string PluginVersion = "1.1.1";
 
         void Awake()
         {

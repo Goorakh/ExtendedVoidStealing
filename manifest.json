@@ -2,7 +2,7 @@
 	"name": "ExtendedVoidStealing",
 	"authorName": "Gorakh",
 	"displayName": "Extended Void Stealing",
-	"version_number": "1.1.0",
+	"version_number": "1.1.1",
 	"website_url": "https://github.com/Goorakh/ExtendedVoidStealing",
 	"description": "Server-side mod that makes void implosions steal more kinds of objects from the environment. Highly configurable.",
 	"dependencies": [
