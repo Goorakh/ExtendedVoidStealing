@@ -11,6 +11,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Networking;
+using ExtendedVoidStealing.SceneObjectMarkers;
 
 namespace ExtendedVoidStealing
 {
@@ -61,11 +62,14 @@ namespace ExtendedVoidStealing
             {
                 return portalStatueBehavior.portalType == PortalStatueBehavior.PortalType.Shop && InteractableConfig.CanRemoveNewtStatues;
             }
-            else if (netObj.TryGetComponent<SurvivorPodController>(out SurvivorPodController survivorPodController))
+            else if (netObj.GetComponent<SurvivorPodController>())
             {
                 return MiscConfig.CanRemoveSurvivorPods;
             }
-
+            else if (netObj.GetComponent<AbandonedAqueductPlate>())
+            {
+                return MiscConfig.CanRemoveAqueductPlates;
+            }
 #if DEBUG
             Log.Debug("Unhandled net obj " + Util.GetGameObjectHierarchyName(netObj.gameObject));
 #endif

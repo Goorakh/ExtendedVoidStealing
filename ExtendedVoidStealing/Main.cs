@@ -25,7 +25,6 @@ namespace ExtendedVoidStealing
     // Timed Chest
     // All preplaced chests on goldshores
     // Plates on aqueduct
-    // Ring event gate on aqueduct
     // PortalDialer stuff on SM
 
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
