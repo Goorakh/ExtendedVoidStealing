@@ -1,7 +1,7 @@
 ﻿using BepInEx.Logging;
 using System.Runtime.CompilerServices;
 
-namespace HungeringVoid
+namespace ExtendedVoidStealing
 {
     internal static class Log
     {

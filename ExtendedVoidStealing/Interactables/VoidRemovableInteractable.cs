@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Networking;
 
-namespace HungeringVoid.Interactables
+namespace ExtendedVoidStealing.Interactables
 {
     public class VoidRemovableInteractable : MonoBehaviour
     {

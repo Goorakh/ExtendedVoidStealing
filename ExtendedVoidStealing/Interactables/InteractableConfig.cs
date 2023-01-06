@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace HungeringVoid.Interactables
+namespace ExtendedVoidStealing.Interactables
 {
     public static class InteractableConfig
     {

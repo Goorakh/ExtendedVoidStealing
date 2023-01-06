@@ -1,4 +1,4 @@
-﻿namespace HungeringVoid.Interactables
+﻿namespace ExtendedVoidStealing.Interactables
 {
     public enum InteractableType
     {

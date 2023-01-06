@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HungeringVoid
+namespace ExtendedVoidStealing
 {
     public static class PluginGUIDs
     {

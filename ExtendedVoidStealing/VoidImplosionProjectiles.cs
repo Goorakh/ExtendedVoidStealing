@@ -1,4 +1,4 @@
-﻿using HungeringVoid.Interactables;
+﻿using ExtendedVoidStealing.Interactables;
 using RiskOfOptions.Components.Panel;
 using RoR2;
 using RoR2.Projectile;
@@ -10,7 +10,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Networking;
 
-namespace HungeringVoid
+namespace ExtendedVoidStealing
 {
     public static class VoidImplosionProjectiles
     {

@@ -1,6 +1,6 @@
 using BepInEx;
 using BepInEx.Bootstrap;
-using HungeringVoid.Interactables;
+using ExtendedVoidStealing.Interactables;
 using R2API;
 using R2API.Utils;
 using RoR2;
@@ -12,7 +12,7 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.Networking;
 
-namespace HungeringVoid
+namespace ExtendedVoidStealing
 {
     // To add:
     // Logbook pickups
