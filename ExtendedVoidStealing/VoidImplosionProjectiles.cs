@@ -1,4 +1,5 @@
 ﻿using ExtendedVoidStealing.Interactables;
+using ExtendedVoidStealing.Pickups;
 using ExtendedVoidStealing.Misc;
 using RiskOfOptions.Components.Panel;
 using RoR2;
@@ -90,12 +91,15 @@ namespace ExtendedVoidStealing
                 }
             }
 
-            List<GenericPickupController> pickups = InstanceTracker.GetInstancesList<GenericPickupController>();
-            for (int i = pickups.Count - 1; i >= 0; i--)
+            if (PickupConfig.CanRemovePickups)
             {
-                if (isInRange(pickups[i].transform.position))
+                List<GenericPickupController> pickups = InstanceTracker.GetInstancesList<GenericPickupController>();
+                for (int i = pickups.Count - 1; i >= 0; i--)
                 {
-                    removeObjectInVoidDeathZone(pickups[i].gameObject);
+                    if (isInRange(pickups[i].transform.position))
+                    {
+                        removeObjectInVoidDeathZone(pickups[i].gameObject);
+                    }
                 }
             }
 

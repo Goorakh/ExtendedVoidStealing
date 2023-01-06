@@ -1,6 +1,7 @@
 using BepInEx;
 using BepInEx.Bootstrap;
 using ExtendedVoidStealing.Interactables;
+using ExtendedVoidStealing.Pickups;
 using ExtendedVoidStealing.Misc;
 using R2API;
 using R2API.Utils;
@@ -52,6 +53,7 @@ namespace ExtendedVoidStealing
             }
 
             InteractableConfig.Init(Config);
+            PickupConfig.Init(Config);
             MiscConfig.Init(Config);
 
             stopwatch.Stop();
